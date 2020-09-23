@@ -1,0 +1,99 @@
+<html>
+	 <head>
+	   <title>Scintilla Wrapper Class Readme</title>
+	 </head>
+	 <body bgcolor="#ffffff" text="#000000"><center>
+	 	<table border="0" cellpadding="0" cellspacing="0" width="50%"><tr><td>
+	 	<font face="Verdana" size="-1" color="#000000">
+	 		<Font size="4"><b>Scintilla Class Readme</b></font><BR><BR>
+	 		<b>Credits</b>
+	 		First I'd like to thank the original author of Scintilla and all those who have 
+	 		contributed to it.  Scintilla can be downloaded from
+	 		<a href="http://www.scintilla.org">http://www.scintilla.org</a><BR><BR>
+	 		I'd really like to thank Steve McMahon the author and owner of 
+	 		<a href="http://www.vbaccelerator.com">VBAccelerator</a> who helped
+	 		me several times in developing this.<BR><BR>
+	 		<b>What is Scintilla</b>
+	 		Scintilla is an excellent freeware and opensource DLL which offers full 
+	 		syntax highlighting support for virtually any language, with code folding,
+	 		tips and more.<BR><BR>
+	 		<b>What is this wrapper class?</b>
+	 		Scintilla has a vast ammount of features.  In many languages these features
+	 		are fairly easy to make use of.  In Visual Basic this isn't the case.  There
+	 		have been a couple of attempts at controls written in Visual Basic to make 
+	 		use of Scintilla but they have been plagged with bugs and offer very little
+	 		support for what Scintilla can do.  Unfortunatly because of the way Scintilla
+	 		works, writing a control to wrap it is difficult at best and tends to have
+	 		problems.  Think of it as putting a window, within a window within a window.
+	 		<BR><BR>
+	 		This class does not by any means support all the features of scintilla.  But
+	 		it does work quite well and adding more features is easily done so updates 
+	 		can be made more readily.  In a sense because of the way it is designed you 
+	 		can treat it much like a control.  It just has no visual aspects within
+	 		the VB editor.
+	 		<BR><BR>
+	 	  <b>Some things to watch out for</b>
+	 	  This class uses subclassing to capture messages from Scintilla.  Thanks to Steve
+	 	  for not only writing the SSubTmr code but also for helping me to impliment it.  Though
+	 	  I have had no instances where it crashed when running it in VB because of the setup
+	 	  a bug will likely cause the editor to close so if you are running it from the editor
+	 	  and changing code save often.<BR><BR>
+	 	  <b>The FindText Function</b>
+	 	  I figure I'll go over this briefly as it's got quite a few optional values to it.
+	 	  <BR><BR>
+	 	  <font color="navy"><b>Public Function FindText(txttofind As String, Optional ByVal findinrng As Boolean, Optional WrapDocument As Boolean = True, Optional CaseSensative As Boolean = False, Optional WordStart As Boolean = False, Optional WholeWord As Boolean = False, Optional RegExp As Boolean = False) As Long</b><BR><BR></font>
+	 	  The txttofind is the string you pass containing what text you wish to find.  findinrng is to find within selected text.  WrapDocument will cause the class to start from the beginning of the document if it's not found between the current position and the end of the document.  WordStart if set to
+	 	  true will tell it to ignore anything that starts with a word related character (a-z).  WholeWord will tell it to only find the whole word and ignore anything where the search text is within another word. RegExp will search using regular expressions.
+	 	  <BR><BR>
+	 	  <b>Some things to try:</b>
+	 	  <ul>
+	 	  	 <li>Wordwrap support</li>
+	 	  	 <li>Class adds some basic call tip support for you</li>
+	 	  	 <li>Class adds folding support for you</li>
+	 	  </ul>
+	 	  <BR>
+	 	  <b>Important!</b>
+	 	  I call this a class but it's really a bit of a generic term for it.  This wrapper
+	 	  for scintilla actually includes the following files:<font color="red"> <ul>
+	 	  <li>frmFind.frm</li>
+	 	  <li>frmGoto.frm</li>
+	 	  <li>frmReplace.frm</li>
+	 	  <li>modAPI.bas</li>
+	 	  <li>modConst.bas</li>	
+	 	  <li>modHighlighter.bas</li>
+	 	  <li>modIni.bas</li>
+	 	  <li>modScintillaConst.bas</li>
+	 	  <li>MSubClass.bas</li>
+	 	  <li>clsScintilla.cls</li>
+	 	  <li>GSubclass.cls</li>
+	 	  <li>ISubClass.cls</li>
+	 	</ul></font>
+	 	<BR>
+	 	<B>modHighlighter.bas and modIni.bas</b><BR><BR>
+	 	These two files are not really neccisary to use the control
+	 	effectivly.  The modIni is use only in modHighlighter
+	 	to read a basic ini style langage setup file.  The
+	 	modHighlighter provides some basic functionality to
+	 	load languages.  Several language files are included
+	 	in this demo to show you how it works.  It's fairly
+	 	generic code.  It also includes an ExportToHTML function.
+	 	Use that one at your own risk of time it's pretty slow :)
+	 	<BR><BR>
+	 	<b>Things I want to add</b><BR><BR>
+	 	More properties to setup basic features of scintilla easily<BR>
+	 	Improve the speed of a few functions specificly ReplaceAll, and ExporttoHTML<BR>
+	 	Build in more support for scintilla's features<BR><BR>
+	 	If you find any bugs please get onto http://www.ceditmx.com and go to the forums and post a bug report outlining which function is causing the problem and what your using it for so I can try to fix it asap.
+	 	
+	 	
+	 		
+	 	
+	 		
+	 	  
+	 	  
+	 	  
+	 	</font>
+	  </td></tr></table></center>
+	 </body>
+</html>
+	 		
