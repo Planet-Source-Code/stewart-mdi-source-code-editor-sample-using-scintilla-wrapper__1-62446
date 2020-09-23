@@ -1,0 +1,24 @@
+[data]
+Filter=Pascal files (*.pas)|*.PAS;*.p|
+SingleComment=//~ 
+Language=18
+LangName=PASCAL
+Keywords[0]=asm auto bool break case catch char class const const_cast continue default delete do double dynamic_cast else enum explicit export extern false float for friend goto if inline int long mutable namespace new operator private protected public register rei 
+Keywords[1]=write read default public protected private property published stored 
+Style[0]=:::V:C::::0:0:16777215:White space:
+Style[1]=:::V:C:::Comic Sans MS:9:32512:16777215:Comment:
+Style[2]=:::V:C:::Comic Sans MS:9:32512:16777215:Line Comment:
+Style[3]=:::V:C:::Comic Sans MS:9:8355711:16777215:Doc Comment:
+Style[4]=:::V:C:::Courier New:10:8355584:16777215:Number:
+Style[5]=B:::V:C:::Courier New:10:8323072:16777215:Keyword:
+Style[6]=:I::V:C:::Courier New:10:8355584:16777215:Double quoted string:
+Style[7]=:I::V:C:::Courier New:10:8355584:16777215:Single quoted string:
+Style[8]=B:::V:C:::Courier New:10:32639:16777215:Symbols:
+Style[9]=:::V:C:::Courier New:10:8355584:16777215:Preprocessor:
+Style[10]=:::V:C:::Courier New:10:8355584:16777215:Operators:
+Style[32]=:::V:C:::Courier New:10::16777215:Default:
+Style[33]=:::V:C:::Courier New:8:12415347:15724527:Line Number:
+Style[34]=B:::V:C:::Courier New:10:16711680:16777215:Brace Light:
+Style[35]=B:::V:C:::Courier New:10:255:16777215:Brace Bad Light:
+Style[37]=:::V:C::::0:0:16777215:Indent Guide:
+Keywords[2]=and begin case call class continue do each else elseif end erase error event exit false for function get gosub goto if implement in load loop lset me mid new next not nothing on or property raiseevent rem resume return rset select set stop sub then to tr

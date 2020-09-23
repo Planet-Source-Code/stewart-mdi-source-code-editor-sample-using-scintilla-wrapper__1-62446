@@ -1,0 +1,25 @@
+[data]
+Filter=Ruby files (*.rb)|*.rb|
+Language=22
+LangName=RUBY
+Keywords[0]=asm auto bool break case catch char class const const_cast continue default delete do double dynamic_cast else enum explicit export extern false float for friend goto if inline int long mutable namespace new operator private protected public register rei 
+Style[0]=:::V:C:::Courier New:10:8421504:16777215:White space:
+Style[1]=:::V:C:::Comic Sans MS:9:32512:16777215:Comment:
+Style[2]=:::V:C:::Courier New:10:8355584:16777215:Number:
+Style[3]=:::V:C:::Courier New:10:8323199:16777215:String:
+Style[4]=:::V:C:::Courier New:10:8323199:16777215:Single quoted string:
+Style[5]=B:::V:C:::Courier New:10:133169152:16777215:Keyword:
+Style[6]=:::V:C:::Courier New:10:127:16777215:Triple quotes:
+Style[7]=:::V:C:::Courier New:10:127:16777215:Triple double quotes:
+Style[8]=B:::V:C:::Courier New:10:16711680:16777215:Class name definition:
+Style[9]=B:::V:C:::Courier New:10:8355584:16777215:Function or method name definition:
+Style[10]=B:::V:C:::Courier New:10:536870912:16777215:Operators:
+Style[11]=:::V:C:::Courier New:10:8355711:16777215:Identifiers:
+Style[12]=:::V:C:::Courier New:10:8355711:16777215:Comment blocks:
+Style[13]=:::V:C:E::Courier New:10::14729440:End of line where string is not closed:
+Style[32]=:::V:C:::Courier New:10::16777215:Default:
+Style[33]=:::V:C:::Courier New:8:12415347:15724527:Line Number:
+Style[34]=B:::V:C:::Courier New:10:16711680:16777215:Brace Light:
+Style[35]=B:::V:C:::Courier New:10:255:16777215:Brace Bad Light:
+Style[37]=:::V:C::::0:0:16777215:Indent Guide:
+Keywords[2]=and begin case call class continue do each else elseif end erase error event exit false for function get gosub goto if implement in load loop lset me mid new next not nothing on or property raiseevent rem resume return rset select set stop sub then to tr

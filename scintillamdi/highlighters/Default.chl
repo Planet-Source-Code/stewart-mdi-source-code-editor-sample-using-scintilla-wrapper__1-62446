@@ -1,0 +1,21 @@
+[data]
+Filter=Text Files|*.txt;*.ini;*.*|
+SingleComment=
+Language=0
+LangName=Default
+Keywords[0]=asm auto bool break case catch char class const const_cast continue default delete do double dynamic_cast else enum explicit export extern false float for friend goto if inline int long mutable namespace new operator private protected public register rei
+Keywords[1]=
+Keywords[2]=and begin case call class continue do each else elseif end erase error event exit false for function get gosub goto if implement in load loop lset me mid new next not nothing on or property raiseevent rem resume return rset select set stop sub then to tr
+Keywords[3]=
+Keywords[4]=
+Keywords[5]=
+Keywords[6]=
+Keywords[7]=
+Style[5]=B:::V:C:::Courier New:10::16777215::
+Style[6]=:I::V:C:::Courier New:10::16777215::
+Style[7]=:I:U:V:C:::Courier New:10::16777215::
+Style[12]=:::V:C:E::Courier New:10::16777215::
+Style[32]=:::V:C:::Courier New:10::16777215::
+Style[33]=:::V:C:::Courier New:8:12415347:15724527:Li:
+Style[34]=B:::V:C:::Times New Roman:11:16711680:16777215:B:
+Style[35]=B:::V:C:::Times New Roman:11:255:16777215:Brac:

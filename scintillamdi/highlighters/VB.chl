@@ -1,0 +1,21 @@
+[data]
+Filter=VB and VBScript files (*.vbs;*.bas;*.cls)|*.vbs;*.bas;*.cls|
+SingleComment='~ 
+Language=8
+LangName=VB
+Keywords[0]=asm auto bool break case catch char class const const_cast continue default delete do double dynamic_cast else enum explicit export extern false float for friend goto if inline int long mutable namespace new operator private protected public register rei 
+Style[0]=:::V:C::::0:0:16777215:White space:
+Style[1]=:::V:C:::Comic Sans MS:9:32768:16777215:Comment:
+Style[2]=:::V:C:::Courier New:10:32639:16777215:Number:
+Style[3]=:::V:C:::Courier New:10:8323199:16777215:Keyword:
+Style[4]=:I::V:C:::Courier New:10:32639:16777215:Double quoted string:
+Style[5]=:::V:C:::Courier New:10:8355584:16777215:Preprocessor:
+Style[6]=B:::V:C:::Courier New:10:8355584:16777215:Operators:
+Style[7]=:::V:C:::Courier New:10:536870912:16777215:Identifier:
+Style[8]=:::V:C:::Courier New:10:32639:16777215:Date:
+Style[32]=:::V:C:::Courier New:10::16777215:Default:
+Style[33]=:::V:C:::Courier New:8:12415347:15724527:Line Number:
+Style[34]=B:::V:C:::Courier New:10:16711680:16777215:Brace Light:
+Style[35]=B:::V:C:::Courier New:10:255:16777215:Brace Bad Light:
+Style[37]=:::V:C::::0:0:16777215:Indent Guide:
+Keywords[2]=and begin case call class continue do each else elseif end erase error event exit false for function get gosub goto if implement in load loop lset me mid new next not nothing on or property raiseevent rem resume return rset select set stop sub then to tr
